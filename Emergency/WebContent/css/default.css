@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'gmarket-sans';
+    font-weight: 300;
+    src: url('../fonts/GmarketSansLight.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'gmarket-sans';
+    font-weight: 400;
+    src: url('../fonts/GmarketSansMedium.ttf') format('truetype');
+}   
+@font-face {
+    font-family: 'gmarket-sans';
+    font-weight: 700;
+    src: url('../fonts/GmarketSansBold.ttf') format('truetype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: gmarket-sans;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+a:link {
+    color: #58595b;
+}
+
+a:visited {
+    color: #58595b;
+}
+
+
+
+
+
+.layout_wrap{
+    width : 1280px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.topbar_wrap{
+    display: flex;
+	float: right;
+    position: relative;
+    bottom: 130px;
+    right: 30px;
+    
+}
+
+.topbar_wrap ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+
+
+
+.service_intro {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+footer{
+    text-align: center; 
+}
